@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextViewHello = findViewById(R.id.TextViewHello);
-
-        TextViewHello.setText("feature_2");
+        TextViewHello.setText("feature_1 + feature_2");
     }
 }
